@@ -13,3 +13,70 @@
  *= require_tree .
  *= require_self
  */
+ body{
+  margin: 8%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+h1, h2 {
+  text-align: center;
+  color: rgb(28, 66, 96);
+  text-transform: capitalize;
+}
+
+p {
+color: rgb(28, 66, 96);
+font-size: 20px;
+text-align: center;
+margin-top: 16px;
+text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(28, 66, 96);
+}
+
+label {
+  padding-top: 2%;
+  font-size: 16px;
+}
+
+
+.btn-submit {
+  display: flex;
+  justify-content: right;
+}
+.container {
+  border: 3px dotted rgb(28, 66, 96);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+ul.list-group {
+  list-style: none;
+  font-size: 25px;
+  padding-top: 3%;
+  padding-left: 3%;
+  text-transform: capitalize;
+}
+
+#add {
+  display: flex;
+  justify-content: right;
+  margin-top: 4%;
+  margin-right: 4%;
+  text-align: right;
+}
+#options{
+  display: flex;
+  justify-content: center;
+}
+
+#delete, #edit {
+  border: 3px dotted rgb(28, 66, 96);
+  max-width: fit-content;
+  border-radius: 5px;
+  padding: 0.5%;
+  margin: 10px;
+  text-align: center;
+}
